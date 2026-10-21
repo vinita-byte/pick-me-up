@@ -1,0 +1,136 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dark Jet Black Background with subtle red grid -->
+  <rect width="1200" height="630" fill="#0A0A0A" />
+  
+  <defs>
+    <linearGradient id="redGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EF4444" />
+      <stop offset="100%" stop-color="#B91C1C" />
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#18181B" />
+      <stop offset="100%" stop-color="#121212" />
+    </linearGradient>
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EF4444" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#27272A" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="15" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Ambient Red Glows -->
+  <circle cx="150" cy="120" r="240" fill="#DC2626" opacity="0.18" filter="url(#glow)" />
+  <circle cx="1080" cy="520" r="280" fill="#EF4444" opacity="0.12" filter="url(#glow)" />
+
+  <!-- Subtle Bento Grid Lines -->
+  <g stroke="#262626" stroke-width="1" opacity="0.5">
+    <line x1="60" y1="0" x2="60" y2="630" />
+    <line x1="1140" y1="0" x2="1140" y2="630" />
+    <line x1="0" y1="60" x2="1200" y2="60" />
+    <line x1="0" y1="570" x2="1200" y2="570" />
+  </g>
+
+  <!-- Outer Bento Container Frame -->
+  <rect x="60" y="60" width="1080" height="510" rx="24" fill="none" stroke="#27272A" stroke-width="2" />
+
+  <!-- HEADER BENTO CELL -->
+  <rect x="90" y="90" width="620" height="150" rx="20" fill="url(#cardGrad)" stroke="#27272A" stroke-width="1.5" />
+  
+  <!-- Red Brand Accent Tag -->
+  <rect x="120" y="116" width="140" height="28" rx="14" fill="#DC2626" />
+  <text x="190" y="135" fill="#FFFFFF" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" font-weight="800" text-anchor="middle" letter-spacing="1.5">BOLLYWOOD RANDOMIZER</text>
+
+  <!-- Main Title -->
+  <text x="120" y="185" fill="#FFFFFF" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="44" font-weight="900" letter-spacing="-1">PICK ME UP</text>
+  <text x="430" y="185" fill="#EF4444" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="44" font-weight="900">🎬</text>
+
+  <!-- Subtitle -->
+  <text x="120" y="218" fill="#A1A1AA" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="16" font-weight="500">
+    Bollywood Pickup Lines, Iconic Flirts &amp; Hilarious Banter with Live SFX
+  </text>
+
+  <!-- STATS / BADGE BENTO CELL (TOP RIGHT) -->
+  <rect x="730" y="90" width="380" height="150" rx="20" fill="url(#cardGrad)" stroke="#DC2626" stroke-width="1.5" />
+  <rect x="755" y="115" width="46" height="46" rx="12" fill="#DC2626" />
+  <!-- Spinning Wheel Icon -->
+  <circle cx="778" cy="138" r="14" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-dasharray="8 4" />
+  <circle cx="778" cy="138" r="4" fill="#FFFFFF" />
+
+  <text x="815" y="134" fill="#FFFFFF" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="20" font-weight="800">RANDOMIZER WHEEL</text>
+  <text x="815" y="153" fill="#A1A1AA" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" font-weight="500">Authentic Decelerating Spin Sound</text>
+
+  <rect x="755" y="180" width="160" height="38" rx="8" fill="#0A0A0A" stroke="#3F3F46" stroke-width="1" />
+  <text x="835" y="204" fill="#EF4444" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle">60+ Filmy Lines</text>
+
+  <rect x="925" y="180" width="160" height="38" rx="8" fill="#0A0A0A" stroke="#3F3F46" stroke-width="1" />
+  <text x="1005" y="204" fill="#FFFFFF" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle">9 Audio Effects 🔊</text>
+
+  <!-- MAIN DIALOGUE HERO BENTO CELL (CENTER LEFT) -->
+  <rect x="90" y="260" width="620" height="280" rx="20" fill="url(#cardGrad)" stroke="#DC2626" stroke-width="2" />
+  
+  <rect x="120" y="285" width="110" height="26" rx="6" fill="#27272A" />
+  <text x="175" y="302" fill="#EF4444" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="middle">ICONIC ROMANCE</text>
+
+  <!-- Quote Mark -->
+  <text x="120" y="360" fill="#DC2626" font-family="Georgia, serif" font-size="64" font-weight="bold">“</text>
+  <text x="155" y="350" fill="#FFFFFF" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="25" font-weight="800" line-height="1.3">
+    Bade bade deshon mein aisi
+  </text>
+  <text x="120" y="388" fill="#FFFFFF" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="25" font-weight="800">
+    chhoti chhoti baatein hoti rehti hain, Senorita.
+  </text>
+
+  <text x="120" y="435" fill="#EF4444" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="18" font-weight="700">
+    🎬 Dilwale Dulhania Le Jayenge (1995)
+  </text>
+
+  <rect x="120" y="458" width="560" height="60" rx="10" fill="#0A0A0A" stroke="#27272A" stroke-width="1" />
+  <text x="140" y="482" fill="#A1A1AA" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="1">HOW TO DELIVER:</text>
+  <text x="140" y="504" fill="#F4F4F5" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" font-weight="500">
+    Charming, playful, and unapologetically filmy. Deliver with a cheeky grin!
+  </text>
+
+  <!-- SOUNDBOARD BENTO CELL (BOTTOM RIGHT) -->
+  <rect x="730" y="260" width="380" height="280" rx="20" fill="url(#cardGrad)" stroke="#27272A" stroke-width="1.5" />
+  
+  <text x="755" y="295" fill="#FFFFFF" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="18" font-weight="800">AUDIO JUKEBOX</text>
+  <text x="755" y="316" fill="#71717A" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" font-weight="500">Instant punchline reactions</text>
+
+  <!-- Sound Pads Grid in SVG -->
+  <!-- Pad 1 -->
+  <rect x="755" y="335" width="160" height="56" rx="10" fill="#18181B" stroke="#DC2626" stroke-width="1.5" />
+  <circle cx="780" cy="363" r="12" fill="#DC2626" />
+  <polygon points="777,358 786,363 777,368" fill="#FFFFFF" />
+  <text x="800" y="358" fill="#FFFFFF" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" font-weight="700">KJo Romance</text>
+  <text x="800" y="373" fill="#A1A1AA" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="10">SRK Violin Melody</text>
+
+  <!-- Pad 2 -->
+  <rect x="925" y="335" width="160" height="56" rx="10" fill="#18181B" stroke="#3F3F46" stroke-width="1" />
+  <circle cx="950" cy="363" r="12" fill="#27272A" />
+  <polygon points="947,358 956,363 947,368" fill="#FFFFFF" />
+  <text x="970" y="358" fill="#FFFFFF" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" font-weight="700">Baburao Tod!</text>
+  <text x="970" y="373" fill="#A1A1AA" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="10">Khopdi Tod Saale</text>
+
+  <!-- Pad 3 -->
+  <rect x="755" y="401" width="160" height="56" rx="10" fill="#18181B" stroke="#3F3F46" stroke-width="1" />
+  <circle cx="780" cy="429" r="12" fill="#27272A" />
+  <polygon points="777,424 786,429 777,434" fill="#FFFFFF" />
+  <text x="800" y="424" fill="#FFFFFF" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" font-weight="700">Maza Aayega</text>
+  <text x="800" y="439" fill="#A1A1AA" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="10">Phir Hera Pheri</text>
+
+  <!-- Pad 4 -->
+  <rect x="925" y="401" width="160" height="56" rx="10" fill="#18181B" stroke="#3F3F46" stroke-width="1" />
+  <circle cx="950" cy="429" r="12" fill="#27272A" />
+  <polygon points="947,424 956,429 947,434" fill="#FFFFFF" />
+  <text x="970" y="424" fill="#FFFFFF" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" font-weight="700">CID Gadbad</text>
+  <text x="970" y="439" fill="#A1A1AA" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="10">ACP Pradyuman</text>
+
+  <!-- Pad 5 (Wide Button) -->
+  <rect x="755" y="468" width="330" height="54" rx="10" fill="url(#redGrad)" />
+  <text x="920" y="501" fill="#FFFFFF" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" font-weight="800" text-anchor="middle" letter-spacing="1">
+    ⚡ SPIN THE RANDOMIZER
+  </text>
+</svg>

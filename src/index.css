@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-sans: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+
+  body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #0A0A0A;
+    color: #FFFFFF;
+    overflow-x: hidden;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #121212;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #27272A;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #DC2626;
+}
+
+/* Bento Tile Shine and Hover Accents */
+.bento-card {
+  background: #121212;
+  border: 1px solid #27272A;
+  border-radius: 1.25rem;
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  position: relative;
+  overflow: hidden;
+}
+
+.bento-card:hover {
+  border-color: #3F3F46;
+  box-shadow: 0 10px 30px -10px rgba(220, 38, 38, 0.12);
+}
+
+.bento-card-highlight {
+  border-color: rgba(220, 38, 38, 0.45);
+  box-shadow: 0 0 25px -5px rgba(220, 38, 38, 0.25);
+}
+
+/* Spinning text animation ticker */
+@keyframes pulse-red {
+  0%, 100% {
+    box-shadow: 0 0 15px rgba(220, 38, 38, 0.4);
+  }
+  50% {
+    box-shadow: 0 0 30px rgba(220, 38, 38, 0.8);
+  }
+}
+
+.spin-active-glow {
+  animation: pulse-red 0.8s infinite ease-in-out;
+}

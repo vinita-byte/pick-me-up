@@ -1,0 +1,41 @@
+# Pick Me Up — Bollywood Dialogue & Pickup Lines Randomizer
+
+> Pick Me Up is a bento-style interactive web application dedicated to iconic Bollywood dialogues, cheesy pickup lines, witty banter, and situational comebacks. It features an authentic mechanical wheel spinning sound, celebratory and comedic sound effects, and delivery tips for dating, social media, and everyday humor.
+
+## App Identity & Specifications
+- **App Name**: Pick Me Up
+- **Design System**: Bento Box Grid Layout
+- **Color Palette**: High-contrast Red (#DC2626), Deep Jet Black (#0A0A0A), and Crisp White (#FFFFFF)
+- **Typography**: Helvetica / Helvetica Neue
+- **Core Functionality**: Randomizer spinner with authentic mechanical sound effects and Bollywood punchline audio playback
+
+## Dialogue Categories
+- **Iconic Romance & SRK**: Classic romantic confessions from DDLJ, Kal Ho Naa Ho, Om Shanti Om, Kuch Kuch Hota Hai, and Mohabbatein.
+- **Cheeky Flirt & Pickup**: Clever, witty lines from 2 States, Yeh Jawaani Hai Deewani, Hasee Toh Phasee, and original texting lines.
+- **Comedic Banter & Comebacks**: Cult comedic zingers from Phir Hera Pheri, Andaz Apna Apna, 3 Idiots, Munna Bhai M.B.B.S., Gangs of Wasseypur, and Welcome.
+- **Food, Drinks & The Bill**: Laugh-out-loud lines for dining, stealing fries, defending pizza, splitting dessert, and paying checks.
+- **End of Night Closers**: Memorable parting words for wrapping up dates, saying goodbye at the cab, or late-night WhatsApp texting.
+- **Bollywood Tashan & Swagger**: High-attitude power moves and confidence lines from Don, Dabangg, Shahenshah, Kick, and K3G.
+
+## Audio Sound Effects Included
+- `romance`: KJo Romance Flute & Strings (Violin melody)
+- `patola`: Proper Patola Swag Beat
+- `indian-dhol`: Balle Balle Punjabi Dhol Celebration
+- `abhi-maza`: "Abhi Maza Aayega Na Bhidu" (Phir Hera Pheri)
+- `khopdi-tod`: "Khopdi Tod Saale Ka!" (Baburao Apte)
+- `kuch-gadbad`: "Nahi Nahi Salunkhe! Kuch To Gadbad Hai" (CID ACP Pradyuman)
+- `cartoon-laugh`: High-Pitched Cartoon Laugh
+- `duck-toy`: Squeaky Rubber Duck Toy Sound
+- `mac-quack`: Retro Mac Quack Effect
+
+## Site Structure & Key Endpoints
+- `/`: Interactive Bento Grid with Randomizer Wheel, Soundboard Jukebox, Category Filters, and Dialogue Library
+- `/robots.txt`: Search crawler indexing rules
+- `/sitemap.xml`: XML sitemap for search engines
+- `/preview.png`: OpenGraph and social preview card
+- `/llms.txt`: This file, documenting site content for LLM agents
+
+## Delivery Guidelines for Users
+- **The Deadpan Deliverer**: Saying completely unhinged filmy lines with a completely straight face.
+- **The SRK Arms Spread**: Dramatic charm when giving compliments or making excuses.
+- **The Baburao Panic**: Mock despair when minor inconveniences occur.
